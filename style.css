@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
+
+body {
+  background: #f6ead2;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  font-family: "Roboto Slab", serif;
+  color: #302F2B;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.city-name {
+  border: 5px solid #302F2B;
+  background-color: #fff8ec;
+  box-shadow: 14px 14px 1px rgb(252, 211, 129);
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: 14px 14px 1px rgb(252, 211, 129);
+  border: 5px solid #302F2B;
+}
+
+.time {
+  border-bottom: 5px solid #302F2B;
+}
+
+.details{
+    background-color: #fff8ec;
+}
+
+.credits{
+  margin-top: 40px;
+}
+
+.links, .links:active, .links:visited{
+  color: #FFF;
+  background-color: #F2C6AD;
+  padding: 4px 6px;
+  border-radius: 4px;
+  box-shadow: 6px 6px 1px rgb(221, 176, 149);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 200ms ease-in;
+}
+
+.links:hover{
+  text-decoration: none;
+  box-shadow: 8px 8px 1px rgb(221, 176, 149);
+  color: #FFF;
+}

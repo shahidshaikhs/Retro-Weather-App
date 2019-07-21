@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container my-5 mx-auto">
+      <h1 class="text-center my-4">Retro Weather App</h1>
+      <form autocomplete="off" class="change-location my-4 text-center">
+        <label for="city">Enter a Location for weather information</label>
+        <input type="text" name="city" class="p-4 city-name" />
+      </form>
+      <div class="card shadow rounded my-5 d-none">
+        <img src="https://via.placeholder.com/400x300" class="time card-image-top" alt="" />
+        <div class="text-uppercase text-center details">
+          <h5 class="my-3">City Name</h5>
+          <div class="my-3">Weather condition</div>
+          <div class="display-4 my-4">
+            <span>temp</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Credits -->
+      <div class="credits">
+        <h6 class="my-4 text-center">Created By: <a class="links" target="_blank" href="https://github.com/shahidshaikhs">Shahid Shaikh</a></h6>
+        <h6 class="my-4 text-center">Images from: <a class="links" target="_blank" href="https://dribbble.com/bemocsshahidshaikhs">Brian Edward Miller</a></h6>
+        <h6 class="my-4 text-center">Learned this from: <a class="links" target="_blank" href="https://github.com/iamshaunjp">Shaun Pelling</a></h6>
+      </div>
+    </div>
+
+    <script src="./scripts/forecast.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

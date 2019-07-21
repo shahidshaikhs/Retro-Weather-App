@@ -1,5 +1,6 @@
 // Insert API Key Below
-const key = "bO2sLfS1q55d8f4tA8664R632CGOcQQU";
+// Replace asterisk with your key
+const key = "************";
 
 const getWeather = async city => {
   // Get City Information
